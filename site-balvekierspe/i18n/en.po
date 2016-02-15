@@ -17,8 +17,12 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"This is your Freifunk node's public key. The node is usable now. "
-
+"<p>This is your Freifunk node's public key. The node is usable now.</p>"
+"<div class=\"the-key\">"
+" # <%= hostname %>"
+" <br/>"
+"<%= pubkey %>"
+"</div>"
 
 msgid "gluon-config-mode:reboot"
 msgstr ""

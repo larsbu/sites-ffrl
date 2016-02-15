@@ -1,7 +1,6 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
 	gluon-alfred \
-	gluon-announced \
 	gluon-autoupdater \
 	gluon-config-mode-core \
 	gluon-config-mode-autoupdater \
@@ -20,13 +19,14 @@ GLUON_SITE_PACKAGES := \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
+	gluon-respondd \
 	gluon-status-page \
 	gluon-setup-mode \
 	iwinfo \
 	iptables \
 	haveged
 
-DEFAULT_GLUON_RELEASE := 0.7.5-meschedebestwig-stable$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.8.0-meschedebestwig-snapshot$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
